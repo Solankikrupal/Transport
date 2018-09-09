@@ -1,0 +1,121 @@
+<?php
+   ?>
+
+<div class="contact-icons">
+				<div class=" col-md-4 col-sm-5 footer_grid_left">
+					<div class="icon_grid_left">
+						<span class="fa fa-map-marker" aria-hidden="true"></span>
+					</div>
+					<h5>Address</h5>
+					<p>4514,Behind Iskon Temple,<span>V.V.Nagar,Anand(Gujrat).</span></p>
+				</div>
+				<div class=" col-md-4 col-sm-3 footer_grid_left">
+
+					<div class="icon_grid_left">
+						<span class="fa fa-volume-control-phone" aria-hidden="true"></span>
+					</div>
+					<h5> Contact Us</h5>
+					<p>+(91)7572810409<span>+(91)8100495413</span></p>
+				</div>
+				<div class=" col-md-4 col-sm-4  footer_grid_left">
+					<div class="icon_grid_left">
+
+						<span class="fa fa-envelope" aria-hidden="true"></span>
+					</div>
+					<h5>Email Us</h5>
+					<p><a href="krplsolanki@gmail.com">krplsolanki@gmail.com</a>
+						<span><a href="mailto:hiteshbhatt@gmail.com">hiteshbhatt@gmail.com</a></span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//contact-->
+
+
+	<!-----foooter-------->
+	<footer>
+		<div class="container">
+			<div class="col-md-3 header-side">
+				<h2><a href="index.html">Transports</a></h2>
+			</div>
+			<div class="col-md-7 header-side">
+				<p>©2018 Transports. All Rights Reserved | Design by <a href="http://www.W3Layouts.com" target="_blank">KHSWorks</a></p>
+			</div>
+			<div class="col-md-2 header-side">
+				<div class="buttom-social-grids">
+
+					<ul>
+						<li><a href="#"><span class="fa fa-facebook"></span></a></li>
+						<li><a href="#"><span class="fa fa-twitter"></span></a></li>
+						<li><a href="#"><span class="fa fa-rss"></span></a></li>
+						<li><a href="#"><span class="fa fa-vk"></span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!--js working-->
+	<script type='text/javascript' src='js/jquery-2.2.3.min.js'></script>
+	<script src="js/bootstrap.js"></script>
+	<!-- //js  working-->
+	<!--FlexSlider banner-->
+
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+		$(window).load(function () {
+			$('.flexslider').flexslider({
+				animation: "slide",
+				start: function (slider) {
+					$('body').removeClass('loading');
+				}
+			});
+		});
+	</script>
+	<!--End-slider-script-->
+	<!-- OnScroll-Number-Increase-JavaScript -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.countup.js"></script>
+	<script>
+		$('.counter').countUp();
+	</script>
+	<!-- //OnScroll-Number-Increase-JavaScript -->
+	<!-- light box gallery -->
+	<script src="js/lightbox-plus-jquery.min.js"></script>
+	<!-- //light box gallery -->
+	<!-- start-smoth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 900);
+			});
+		});
+	</script>
+	<!-- start-smoth-scrolling -->
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+			};
+
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+	<!-- //here ends scrolling icon -->
+</body>
+
+</html>
